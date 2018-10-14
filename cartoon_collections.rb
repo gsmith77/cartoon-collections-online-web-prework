@@ -1,6 +1,7 @@
 def roll_call_dwarves(array)
   array.map do |name|
     puts "#{name}"
+  end
 end
 
 def summon_captain_planet# code an argument here
