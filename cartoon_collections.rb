@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  array.map do |name|
+  array.find.map do |name|
     puts "#{name}"
   end
 end
