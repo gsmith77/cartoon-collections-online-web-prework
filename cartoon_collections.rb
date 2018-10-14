@@ -24,6 +24,5 @@ def find_the_cheese(array)
       elsif word == "camembert"
       return "camembert"
     else puts "nil"
-      
 end
 end
