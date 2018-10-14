@@ -21,7 +21,9 @@ def find_the_cheese(array)
       return "cheddar"
       elsif word == "gouda"
       return "gouda"
-      elsif 
+      elsif word == "camembert"
+      return "camembert"
+    else puts "nil"
       
 end
 end
