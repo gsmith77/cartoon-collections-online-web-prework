@@ -18,11 +18,11 @@ def find_the_cheese(array)
   cheese_types = "cheddar", "gouda", "camembert"
   array.find do |word|
     if word == "cheddar"
-      return "cheddar"
+      return word
       elsif word == "gouda"
-      return "gouda"
+      return word
       elsif word == "camembert"
-      return "camembert"
+      return word
     else puts "nil"
 end
 end
