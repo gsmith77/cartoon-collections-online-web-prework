@@ -19,3 +19,4 @@ def find_the_cheese(array)
   array.find do |word|
   word == cheese_types
 end
+end
